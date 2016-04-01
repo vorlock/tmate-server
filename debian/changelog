@@ -1,5 +1,5 @@
-tmate (0+20160328git-1) UNRELEASED; urgency=medium
+tmate-server (0+20160328git-1) UNRELEASED; urgency=medium
 
   * Initial release
 
- -- Marcin Kulisz (kuLa) <debian@kulisz.net>  Fri, 01 Apr 2016 12:04:22 +0100
+ -- Marcin Kulisz (kuLa) <debian@kulisz.net>  Fri, 01 Apr 2016 15:03:24 +0100
