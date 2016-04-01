@@ -1,0 +1,28 @@
+Source: tmate-server
+Section: admin
+Priority: optional
+Maintainer: Marcin Kulisz (kuLa) <debian@kulisz.net>
+Build-Depends: debhelper (>= 9),
+               dh-autoreconf,
+               automake,
+               pkg-config,
+               libtool,
+               libssh-dev (>= 0.6.0),
+               libncurses5-dev,
+               libevent-dev,
+               zlib1g-dev,
+               libssl-dev,
+               cmake,
+               ruby,
+Standards-Version: 3.9.7
+Homepage: http://tmate.io/
+Vcs-Browser: 
+Vcs-Git: 
+
+Package: tmate-server
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Server side for tmate.
+ Tmate is a fork of tmux and provides an instant pairing solution. Tmate and
+ tmux can coexist on the same system, they do not conflict with each other.

@@ -1,0 +1,2 @@
+version=3
+https://github.com/tmate-io/tmate-slave/tags .*/(\d?\.?\d+\.\d+[a]?)\.tar\.gz
